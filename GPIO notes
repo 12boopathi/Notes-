@@ -78,3 +78,35 @@ OTYPER register base address + offset : 0x04
 pheripheral base 40020000 offset 20000 base address 40000000 pheripheral base (pheriph base + AHBIperiph_offset) (GPIO_OFFSET = 0x0000UL)
 
 GPIO_BASE (AHB1PERIPH_BASE + GPIO_OFFSET) When we use the (volatile unsigned int )then we call as address integer poiter typecaste (RCC_BASE + AHB1EN_R_OFFSET)will be changes as address. ((volatile unsigned int *)(RCC_BASE + AHB1EN_R_OFFSET))
+
+
+
+16/02/24
+--Io volatile
+
+GP10 -Typedeb
+
+GPIOA-BASE
+
+Structure
+
+*
+
+GPIO Typedef
+
+Onl Stoveture
+
+GPIOB-BASE different address.
+
+=> one structure for different address
+
+dummy The registers above the AHBIENR should be med AHBIENR↑
+
+↓ The registers below riegiters are not needed.
+
+unsigned int*) changing one value to address,
+
+Ree-Typedef 0000000000 →cusing structure we change all the values to addreisk,
+
+-> delay cured to blink
+
