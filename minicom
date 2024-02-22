@@ -1,0 +1,19 @@
+22/02
+
+minicom:
+
+*minicom is a software tht help to run a stm32 project on terminal 
+
+their sevaral way invale in minicom step after stm32 project build and debug :
+
+1) open the terminal and enter the "sudo minicom -s" to open the minicom on terminal
+2) then select the "serial port setup"
+* we need know the name of the device "stm32-dive name" "ttyACM0"
+3) enter the "a" to select serial device.and chane the name.
+4)enter the press "e" change baurd ate that mention in our program.
+5) then check the harware and software flow control ,it both sould be in "no" position.
+6)after that extit that place simple press the enter.
+7)now in select the "save setup as dfl".
+then enter the "exit".
+the program should be run .
+8) after that stop the program press "ctrl a"& "z" the press "x".
